@@ -1,0 +1,6 @@
+{
+  "commands.adaptive.already.hardcore": "Hardcore is already %s",
+  "commands.adaptive.query.fail": "Adaptive Difficulty not in use, defauling to World Difficulty",
+  "commands.adaptive.hardcore": "Hardcore mode set to %s",
+  "commands.adaptive.preference": "Updated %s Preferences to %s with Hardcore %s"
+}

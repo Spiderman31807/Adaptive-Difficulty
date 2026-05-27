@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "adaptive.difficulty.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+        "ServerGamePacketListenerImplMixin",
+        "FoodDataMixin",
+        "ServerPlayerMixin",
+        "PlayerMixin",
+        "LivingEntityMixin",
+        "CaveSpiderMixin",
+        "BeeMixin",
+        "WitherSkullMixin"
+      ],
+  "client": [
+        "GuiMixin",
+        "DeathScreenMixin" 
+      ],
+  "minVersion": "0.8"
+}
