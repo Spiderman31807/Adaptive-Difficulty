@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "spiderman.adaptive_difficulty.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.adaptive_difficulty.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}
