@@ -1,0 +1,146 @@
+{
+  "mod_elements": [
+    {
+      "name": "DamageTaken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "damage_taken",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/procedures/DamageTakenProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Adaptive",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adaptive",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/Adaptive.java"
+        ]
+      }
+    },
+    {
+      "name": "Difficulty",
+      "type": "command",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "difficulty",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/command/DifficultyCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/procedures/PlayerTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Respawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/procedures/RespawnProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SetTarget",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "set_target",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/procedures/SetTargetProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SetupAdaptive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "setup_adaptive",
+      "metadata": {
+        "files": [
+          "src/main/java/spiderman/adaptive_difficultly/procedures/SetupAdaptiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Difficulty",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENTITIES:adaptive:peaceful_targeting": [
+      "EntityShulker",
+      "EntityShulkerBullet",
+      "EntityHoglin",
+      "EntityZoglin",
+      "EntityPiglinBrute",
+      "EntityDragon",
+      "EntityLlama",
+      "EntityTraderLlama"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "adaptive_difficulty",
+    "modName": "Adaptive Difficulty",
+    "version": "1.0.0",
+    "description": "Lets each Player play at their own Difficulty (kinda..?)",
+    "author": "Spiderman318",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "spiderman.adaptive_difficulty"
+  },
+  "mcreatorVersion": 202400340615
+}
