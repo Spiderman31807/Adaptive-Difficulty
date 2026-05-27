@@ -1,0 +1,226 @@
+{
+  "mod_elements": [
+    {
+      "name": "FoodData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "food_data",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/FoodDataMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "CaveSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cave_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/CaveSpiderMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Bee",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bee",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/BeeMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "LivingEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/LivingEntityMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "WitherSkull",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wither_skull",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/WitherSkullMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "AdaptiveCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adaptive_command",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/AdaptiveCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerPlayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "server_player",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/ServerPlayerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Events",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "events",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/Events.java"
+        ]
+      }
+    },
+    {
+      "name": "Gui",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gui",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/GuiMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathScreenAccessor",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "death_screen_accessor",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/DeathScreenAccessor.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathScreen",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "death_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/DeathScreenMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerGamePacketListenerImpl",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "server_game_packet_listener_impl",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/mixins/ServerGamePacketListenerImplMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "DifficultySettings",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "difficulty_settings",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/DifficultySettings.java"
+        ]
+      }
+    },
+    {
+      "name": "DataAttachments",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "data_attachments",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/DataAttachments.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/adaptive/difficulty/PlayerMixin.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "commands.adaptive.already.hardcore": "Hardcore is already %s",
+      "commands.adaptive.query.fail": "Adaptive Difficulty not in use, defauling to World Difficulty",
+      "commands.adaptive.hardcore": "Hardcore mode set to %s",
+      "commands.adaptive.preference": "Updated %s Preferences to %s with Hardcore %s"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/adaptive/difficulty/AdaptiveDifficultyMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "adaptive_difficulty",
+    "modName": "Adaptive Difficulty",
+    "version": "1.0.2",
+    "description": " ",
+    "author": "Spiderman31807",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/adaptive-difficulty",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "adaptive.difficulty"
+  },
+  "mcreatorVersion": 202500342611
+}
