@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="adaptive_difficulty"
+version="1.0.2"
+displayName="Adaptive Difficulty"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/adaptive-difficulty"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman31807"
+description=" "
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.adaptive_difficulty]]
+modId="neoforge"
+type="required"
+versionRange="[21.8.31,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.adaptive_difficulty]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.8]"
+ordering="AFTER"
+side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+[[mixins]]
+config="mixins.adaptive_difficulty.json"
+# End of user code block dependencies configuration
